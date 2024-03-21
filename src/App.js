@@ -12,7 +12,7 @@ function App() {
   const [mood, setMood] = useState(null)
   
   // set some variables for your API key and fetch URL
-  const API_KEY = "ewKPhBsNz8wpISnVQ4SNOPs4nl0bOGPO"
+  const API_KEY = REACT_APP_API_KEY
   const URL = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}&tag=&rating=g`
 
   // make your api call function(s) here (get creative with calling 2 APIs!)
